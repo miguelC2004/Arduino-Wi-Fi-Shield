@@ -43,7 +43,7 @@ void loop() {
     return;
   }
 
-  // Construyendo la solicitud HTTP
+  // Solicitud HTTP
   String url = "/receive_data?dato=" + String(dato);
   Serial.print("URL: ");
   Serial.println(url);
