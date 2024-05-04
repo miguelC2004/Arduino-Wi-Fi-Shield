@@ -11,12 +11,12 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.listen()
     print(f"SRecibiendo en {HOST}:{PUERTO}")
 
-    # Esperar la conexión del cliente
+
     conn, addr = s.accept()
     with conn:
         print(f"Conexión establecida desde {addr}")
         while True:
-            # Recibir los datos del cliente
+            
             data = conn.recv(1024)
             if not data:
                 break
