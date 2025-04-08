@@ -35,5 +35,3 @@ Este proyecto permite la conexión de un Arduino a Internet utilizando un módul
 - [Python Socket Programming](https://docs.python.org/3/library/socket.html)
 
 ---
-
-**Importante:** Asegúrate de cumplir con las buenas prácticas de desarrollo recomendadas en el libro "Code Complete 2nd Edition" de Steve McConnell.
